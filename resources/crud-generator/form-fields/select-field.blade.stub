@@ -1,0 +1,1 @@
+{!! FORM::select('%%itemName%%', %%options%%, null, ['class' => 'form-control'%%required%%]) !!}

@@ -1,0 +1,7 @@
+%%formFieldsHtml%%
+
+<div class="form-group">
+    <div class="col-sm-offset-3 col-sm-6">
+        {!! FORM::submit(isset($submitButtonText) ? $submitButtonText : 'Create', ['class' => 'btn btn-primary']) !!}
+    </div>
+</div>
